@@ -17,23 +17,23 @@ def get_list(filename):
 @pytest.fixture
 def sample_list() -> List:
     print(os.getcwd())
-    return get_list(f"tests/data/day{day}_sample.txt")
+    return get_list(f"data/day{day}_sample.txt")
 
 
 @pytest.fixture
 def real_list() -> List:
     print(os.getcwd())
-    return get_list(f"tests/data/day{day}.txt")
+    return get_list(f"data/day{day}.txt")
 
 
 @pytest.fixture
 def sample_list_p2() -> List:
     print(os.getcwd())
-    return get_list(f"tests/data/day{day}_p2_sample.txt")
+    return get_list(f"data/day{day}_p2_sample.txt")
 
 
 @pytest.fixture
 def real_list_p2() -> List:
     print(os.getcwd())
-    return get_list(f"tests/data/day{day}_p2.txt")
+    return get_list(f"data/day{day}_p2.txt")
 

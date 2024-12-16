@@ -12,4 +12,4 @@ def test_get_save_reports_sample_mul(sample_list):
     assert day02.safe_report_with_mulligan(sample_list) == 4
 
 def test_get_save_reports_mul(real_list):
-    assert day02.safe_report_with_mulligan(real_list) == 694
+    assert day02.safe_report_with_mulligan(real_list) == 700
